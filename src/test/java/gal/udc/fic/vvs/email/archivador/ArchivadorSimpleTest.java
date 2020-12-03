@@ -6,16 +6,20 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import gal.udc.fic.vvs.email.archivador.ArchivadorSimple;
 import gal.udc.fic.vvs.email.archivo.Texto;
 import gal.udc.fic.vvs.email.correo.Correo;
 import gal.udc.fic.vvs.email.correo.Mensaje;
 
 public class ArchivadorSimpleTest {
 	/**
+	 * pobtenerNombre almacenarCorreo obtenerEspacioTotal obtenerEspacioDisponible
+	 * obtenerDelegado establecerDelegado
+	 */
+
+	/**
 	 * Test obtenerNombre
 	 * 
-	 * Obtiene el nombre de un archivador.
+	 * Prueba obetener el nombre de un archivador Simple.
 	 * 
 	 */
 	@Test
@@ -58,7 +62,7 @@ public class ArchivadorSimpleTest {
 	/**
 	 * Test obtenerEspacioTotal
 	 * 
-	 * Obtiene el espacio total que dispone el archivador
+	 * Prueba obetener el espacio total que dispone el archivador
 	 * 
 	 */
 	@Test
@@ -70,9 +74,9 @@ public class ArchivadorSimpleTest {
 	/**
 	 * Test obtenerEspacioDisponible
 	 * 
-	 * Obtiene el espacio disponible que le queda al archivador En el caso de prueba
-	 * el contenido del correo ocupa 9 y el espacio disponible resultante despues de
-	 * guardar un correo es 11.
+	 * Prueba obetener el espacio disponible que le queda al archivador En el caso
+	 * de prueba el contenido del correo ocupa 9 y el espacio disponible resultante
+	 * despues de guardar un correo es 11.
 	 * 
 	 */
 	@Test

@@ -9,7 +9,7 @@ public class ImagenTest {
 	/**
 	 * Test obtenerNombre
 	 * 
-	 * Obtiene el nombre de una Imagen.
+	 * Prueba obetener el nombre de una Imagen.
 	 * 
 	 */
 	@Test
@@ -19,9 +19,9 @@ public class ImagenTest {
 	}
 
 	/**
-	 * Test obtenerNombre
+	 * Test obtenerMimeType
 	 * 
-	 * Obtiene el MimeType de un Imagen.
+	 * Prueba obetener el MimeType de una Imagen.
 	 * 
 	 */
 	@Test
@@ -33,7 +33,7 @@ public class ImagenTest {
 	/**
 	 * Test obtenerContenido
 	 * 
-	 * Obtiene el Contenido de un Imagen.
+	 * Prueba obetener el Contenido de una Imagen.
 	 * 
 	 */
 	@Test
@@ -45,7 +45,7 @@ public class ImagenTest {
 	/**
 	 * Test obtenerTamaño
 	 * 
-	 * Obtiene el tamaño de un Imagen.
+	 * Prueba obetener el tamaño de una Imagen.
 	 * 
 	 */
 	@Test
@@ -58,7 +58,7 @@ public class ImagenTest {
 	/**
 	 * Test obtenerPreVisualizacion
 	 * 
-	 * Obtiene el Contenido de un Imagen.
+	 * Prueba obetener el previsualizacion de una Imagen.
 	 * 
 	 */
 	@Test

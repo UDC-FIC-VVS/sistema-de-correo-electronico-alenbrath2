@@ -16,7 +16,7 @@ public class MensajeTest {
 	/**
 	 * Test obtenerTamaño
 	 * 
-	 * Obtiene el tamaño de un Mensaje.
+	 * Prueba la obtencion del tamaño de un Mensaje.
 	 * 
 	 */
 	@Test
@@ -28,9 +28,40 @@ public class MensajeTest {
 	}
 
 	/**
+	 * Test obtenerVisualizacion
+	 * 
+	 * Prueba la obtencion de la visualizacion de un Mensaje.
+	 * 
+	 */
+	@Test
+	public void obtenerVisualizacionTest() {
+		Texto te = new Texto("test", "contenido contenido contenido contenido contenido");
+		Mensaje me = new Mensaje(te);
+
+		String expected = "contenido contenido contenido contenido contenido";
+
+		assertEquals(expected, me.obtenerVisualizacion());
+	}
+
+	/**
 	 * Test obtenerNoLeidos
 	 * 
-	 *
+	 * Prueba la obtencion de un item no leido
+	 * 
+	 */
+	@Test
+	public void obtenerNoLeidosTest() {
+		Texto te = new Texto("test", "contenido");
+		Mensaje me = new Mensaje(te);
+		int expected = 1;
+
+		assertEquals(expected, me.obtenerNoLeidos());
+	}
+
+	/**
+	 * Test estableceLeidoTrue
+	 * 
+	 * Prueba el establecer un item como leido
 	 * 
 	 */
 	@Test
@@ -45,9 +76,9 @@ public class MensajeTest {
 	}
 
 	/**
-	 * Test obtenerNoLeidos
+	 * Test estableceLeidoFalse
 	 * 
-	 *
+	 * Prueba el establcer un item como no leido
 	 * 
 	 */
 	@Test
@@ -62,24 +93,9 @@ public class MensajeTest {
 	}
 
 	/**
-	 * Test obtenerNoLeidos
-	 * 
-	 *
-	 * 
-	 */
-	@Test
-	public void obtenerNoLeidosTest() {
-		Texto te = new Texto("test", "contenido");
-		Mensaje me = new Mensaje(te);
-		int expected = 1;
-
-		assertEquals(expected, me.obtenerNoLeidos());
-	}
-
-	/**
 	 * Test obteneIcono
 	 * 
-	 * Obtiene el Icono de un Mensaje.
+	 * Prueba a obtener el Icono de un Mensaje.
 	 * 
 	 */
 	@Test
@@ -93,9 +109,9 @@ public class MensajeTest {
 	}
 
 	/**
-	 * Test obteneIcono
+	 * Test obteneIconoNuevo
 	 * 
-	 * Obtiene el Icono de un Mensaje.
+	 * Prueba a obtener el Icono de un Mensaje nuevo.
 	 * 
 	 */
 	@Test
@@ -109,7 +125,7 @@ public class MensajeTest {
 	/**
 	 * Test obtenerPreVisualizacion
 	 * 
-	 * Obtiene la PreVisualizacion de un Mensaje.
+	 * Prueba la obtencion de la PreVisualizacion de un Mensaje.
 	 * 
 	 */
 	@Test
@@ -123,25 +139,9 @@ public class MensajeTest {
 	}
 
 	/**
-	 * Test obtenerVisualizacion
-	 * 
-	 * Obtiene la PreVisualizacion de un Mensaje.
-	 * 
-	 */
-	@Test
-	public void obtenerVisualizacionTest() {
-		Texto te = new Texto("test", "contenido contenido contenido contenido contenido");
-		Mensaje me = new Mensaje(te);
-
-		String expected = "contenido contenido contenido contenido contenido";
-
-		assertEquals(expected, me.obtenerVisualizacion());
-	}
-
-	/**
 	 * Test obtenerRuta
 	 * 
-	 * Obtiene la Ruta de un Reenvio.
+	 * Prueba el obtener la Ruta de un Mensaje.
 	 * 
 	 */
 	@Test
@@ -155,7 +155,7 @@ public class MensajeTest {
 	/**
 	 * Test obtenerRuta
 	 * 
-	 * Obtiene la Ruta con pade de un Reenvio .
+	 * Prueba a obtener la Ruta de un Mensaje con padre.
 	 * 
 	 */
 	@Test
@@ -170,6 +170,9 @@ public class MensajeTest {
 
 	/**
 	 * Test explorar .
+	 * 
+	 * Prueba el lanzamiento de la excepcion de OperacionInvalida. Salta cuando
+	 * explora un Mensaje
 	 * 
 	 * @throws OperacionInvalida
 	 * 
@@ -186,7 +189,7 @@ public class MensajeTest {
 	/**
 	 * Test buscar
 	 * 
-	 * busca un mensaje y lo devuelve
+	 * Prueba la busqueda de un item y lo devuelve en forma de colecion
 	 * 
 	 */
 	@Test
@@ -203,7 +206,7 @@ public class MensajeTest {
 	/**
 	 * Test buscar
 	 * 
-	 * no encuentra un mensaje
+	 * Prueba la busqueda de un item que no existe
 	 * 
 	 */
 	@Test

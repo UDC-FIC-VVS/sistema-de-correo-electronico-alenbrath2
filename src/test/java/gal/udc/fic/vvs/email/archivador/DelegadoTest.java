@@ -5,9 +5,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import gal.udc.fic.vvs.email.archivador.ArchivadorSimple;
-import gal.udc.fic.vvs.email.archivador.DecoradorArchivador;
-import gal.udc.fic.vvs.email.archivador.Delegado;
 import gal.udc.fic.vvs.email.archivo.Texto;
 import gal.udc.fic.vvs.email.correo.Correo;
 import gal.udc.fic.vvs.email.correo.Mensaje;
@@ -17,7 +14,7 @@ public class DelegadoTest {
 	/**
 	 * Test almacenarCorreo
 	 * 
-	 * Almacena un correo asignado al delegado.
+	 * Prueba almacenar un correo asignado al delegado.
 	 * 
 	 */
 	@Test
@@ -34,10 +31,9 @@ public class DelegadoTest {
 	}
 
 	/**
-	 * Test obtenerDelegado
+	 * Test obtenerDelegado Test EstablecerDelegado
 	 * 
-	 * Obtiene el delegado del archivador
-	 * 
+	 * Prueba obetener el delegado, Establece el delegado
 	 */
 	@Test
 	public void obtener_Y_EstablecerDelegadoTest() {

@@ -4,9 +4,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import gal.udc.fic.vvs.email.archivador.ArchivadorSimple;
-import gal.udc.fic.vvs.email.archivador.DecoradorArchivador;
-import gal.udc.fic.vvs.email.archivador.Log;
 import gal.udc.fic.vvs.email.archivo.Texto;
 import gal.udc.fic.vvs.email.correo.Correo;
 import gal.udc.fic.vvs.email.correo.Mensaje;
@@ -16,7 +13,7 @@ public class LogTest {
 	/**
 	 * Test almacenarCorreo
 	 * 
-	 * Almacena un correo asignado al log.
+	 * Prueba almacenar un correo asignado.
 	 * 
 	 */
 	@Test

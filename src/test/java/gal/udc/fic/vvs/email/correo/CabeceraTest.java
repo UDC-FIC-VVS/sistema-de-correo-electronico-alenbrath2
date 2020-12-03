@@ -14,7 +14,7 @@ public class CabeceraTest {
 	/**
 	 * Test obtenerTamaño
 	 * 
-	 * Obtiene el tamaño de un Cabecera.
+	 * Prueba la obtencion del tamaño de una Cabecera.
 	 * 
 	 */
 	@Test
@@ -28,7 +28,7 @@ public class CabeceraTest {
 	/**
 	 * Test obtenerVisualizacion
 	 * 
-	 * Obtiene la visualizacion de un Cabecera.
+	 * Prueba la obtencion de la visualizacion de una Cabecera.
 	 * 
 	 */
 	@Test
@@ -44,7 +44,7 @@ public class CabeceraTest {
 	/**
 	 * Test obtenerNoLeidos
 	 * 
-	 *
+	 * Prueba la obtencion de un item no leido
 	 * 
 	 */
 	@Test
@@ -58,9 +58,9 @@ public class CabeceraTest {
 	}
 
 	/**
-	 * Test obtenerNoLeidos
+	 * Test estableceLeidoTrue
 	 * 
-	 *
+	 * Prueba el establecer un item como leido
 	 * 
 	 */
 	@Test
@@ -74,9 +74,9 @@ public class CabeceraTest {
 	}
 
 	/**
-	 * Test obtenerNoLeidos
+	 * Test estableceLeidoFalse
 	 * 
-	 *
+	 * Prueba el establcer un item como no leido
 	 * 
 	 */
 	@Test
@@ -92,7 +92,7 @@ public class CabeceraTest {
 	/**
 	 * Test obteneIcono
 	 * 
-	 * Obtiene el Icono de una Cabecera.
+	 * Prueba a obtener el Icono de una Cabecera.
 	 * 
 	 */
 	@Test
@@ -106,9 +106,9 @@ public class CabeceraTest {
 	}
 
 	/**
-	 * Test obteneIcono
+	 * Test obteneIconoNuevo
 	 * 
-	 * Obtiene el Icono de una Cabecera.
+	 * Prueba a obtener el Icono de una Cabecera nueva.
 	 * 
 	 */
 	@Test
@@ -123,7 +123,7 @@ public class CabeceraTest {
 	/**
 	 * Test obtenerPreVisualizacion
 	 * 
-	 * Obtiene la PreVisualizacion de una Cabecera.
+	 * Prueba la obtencion de la PreVisualizacion de una Cabecera.
 	 * 
 	 */
 	@Test
@@ -137,7 +137,7 @@ public class CabeceraTest {
 	/**
 	 * Test obtenerRuta
 	 * 
-	 * Obtiene la Ruta de una Cabecera.
+	 * Prueba el obtener la Ruta de una Cabecera.
 	 * 
 	 */
 	@Test
@@ -151,7 +151,7 @@ public class CabeceraTest {
 	/**
 	 * Test obtenerRuta
 	 * 
-	 * Obtiene la Ruta con pade de una Cabecera.
+	 * Prueba a obtener la Ruta de una Cabecera con padre.
 	 * 
 	 */
 	@Test
@@ -166,6 +166,9 @@ public class CabeceraTest {
 
 	/**
 	 * Test explorar .
+	 * 
+	 * Prueba el lanzamiento de la excepcion de OperacionInvalida. Salta cuando
+	 * explora una Cabecera
 	 * 
 	 * @throws OperacionInvalida
 	 * 
@@ -183,7 +186,7 @@ public class CabeceraTest {
 	/**
 	 * Test buscar
 	 * 
-	 * busca un mensaje y lo devuelve
+	 * Prueba la busqueda de un item y lo devuelve en forma de colecion
 	 * 
 	 */
 	@Test
@@ -200,7 +203,7 @@ public class CabeceraTest {
 	/**
 	 * Test buscar
 	 * 
-	 * no encuentra un mensaje
+	 * Prueba la busqueda de un item que no existe
 	 * 
 	 */
 	@Test

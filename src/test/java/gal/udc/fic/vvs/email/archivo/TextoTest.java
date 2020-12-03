@@ -9,7 +9,7 @@ public class TextoTest {
 	/**
 	 * Test obtenerNombre
 	 * 
-	 * Obtiene el nombre de un Texto.
+	 * Prueba obetener el nombre de un Texto.
 	 * 
 	 */
 	@Test
@@ -21,7 +21,7 @@ public class TextoTest {
 	/**
 	 * Test obtenerNombre
 	 * 
-	 * Obtiene el MimeType de un Texto.
+	 * Prueba obetener el MimeType de un Texto.
 	 * 
 	 */
 	@Test
@@ -33,7 +33,7 @@ public class TextoTest {
 	/**
 	 * Test obtenerContenido
 	 * 
-	 * Obtiene el Contenido de un texto.
+	 * Prueba obetener el Contenido de un texto.
 	 * 
 	 */
 	@Test
@@ -45,7 +45,7 @@ public class TextoTest {
 	/**
 	 * Test obtenerTamaño
 	 * 
-	 * Obtiene el tamaño de un texto.
+	 * Prueba obetener el tamaño de un texto.
 	 * 
 	 */
 	@Test
@@ -58,7 +58,7 @@ public class TextoTest {
 	/**
 	 * Test obtenerPreVisualizacion
 	 * 
-	 * Obtiene el Contenido de un Texto.
+	 * Prueba obetener la previsualizacion de un Texto.
 	 * 
 	 */
 	@Test

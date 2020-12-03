@@ -14,7 +14,7 @@ public class ReenvioTest {
 	/**
 	 * Test obtenerTamaño
 	 * 
-	 * Obtiene el tamaño de un Reenvio.
+	 * Prueba la obtencion del tamaño de un Reenvio.
 	 * 
 	 */
 	@Test
@@ -32,7 +32,7 @@ public class ReenvioTest {
 	/**
 	 * Test obtenerVisualizacion
 	 * 
-	 * Obtiene la visualizacion de un Reenvio.
+	 * Prueba la obtencion de la visualizacion de un Reenvio.
 	 * 
 	 */
 	@Test
@@ -54,7 +54,7 @@ public class ReenvioTest {
 	/**
 	 * Test obtenerNoLeidos
 	 * 
-	 *
+	 * Prueba la obtencion de un item no leido
 	 * 
 	 */
 	@Test
@@ -71,9 +71,9 @@ public class ReenvioTest {
 	}
 
 	/**
-	 * Test obtenerNoLeidos
+	 * Test estableceLeidoTrue
 	 * 
-	 *
+	 * Prueba el establecer un item como leido
 	 * 
 	 */
 	@Test
@@ -92,9 +92,9 @@ public class ReenvioTest {
 	}
 
 	/**
-	 * Test obtenerNoLeidos
+	 * Test estableceLeidoFalse
 	 * 
-	 *
+	 * Prueba el establcer un item como no leido
 	 * 
 	 */
 	@Test
@@ -114,7 +114,7 @@ public class ReenvioTest {
 	/**
 	 * Test obteneIcono
 	 * 
-	 * Obtiene el Icono de un Reenvio.
+	 * Prueba a obtener el Icono de un Reenvio.
 	 * 
 	 */
 	@Test
@@ -134,7 +134,7 @@ public class ReenvioTest {
 	/**
 	 * Test obteneIcono
 	 * 
-	 * Obtiene el Icono de un Reenvio.
+	 * Prueba a obtener el Icono de un Reenvio nuevo.
 	 * 
 	 */
 	@Test
@@ -152,7 +152,7 @@ public class ReenvioTest {
 	/**
 	 * Test obtenerPreVisualizacion
 	 * 
-	 * Obtiene la PreVisualizacion de un Reenvio.
+	 * Prueba la obtencion de la PreVisualizacion de un Reenvio.
 	 * 
 	 */
 	@Test
@@ -170,7 +170,7 @@ public class ReenvioTest {
 	/**
 	 * Test obtenerRuta
 	 * 
-	 * Obtiene la Ruta de un Reenvio.
+	 * Prueba el obtener la Ruta de un Reenvio.
 	 * 
 	 */
 	@Test
@@ -188,7 +188,7 @@ public class ReenvioTest {
 	/**
 	 * Test obtenerRuta
 	 * 
-	 * Obtiene la Ruta con pade de un Reenvio .
+	 * Prueba a obtener la Ruta de un Reenvio con padre.
 	 * 
 	 */
 	@Test
@@ -207,6 +207,9 @@ public class ReenvioTest {
 
 	/**
 	 * Test explorar .
+	 * 
+	 * Prueba el lanzamiento de la excepcion de OperacionInvalida. Salta cuando
+	 * explora un Reenvio
 	 * 
 	 * @throws OperacionInvalida
 	 * 
@@ -227,7 +230,7 @@ public class ReenvioTest {
 	/**
 	 * Test buscar
 	 * 
-	 * busca un mensaje y lo devuelve
+	 * Prueba la busqueda de un item y lo devuelve en forma de colecion
 	 * 
 	 */
 	@Test
@@ -248,7 +251,7 @@ public class ReenvioTest {
 	/**
 	 * Test buscar
 	 * 
-	 * no encuentra un mensaje
+	 * Prueba la busqueda de un item que no existe
 	 * 
 	 */
 	@Test

@@ -14,7 +14,7 @@ public class CarpetaTest {
 	/**
 	 * Test obtenerTamaño
 	 * 
-	 * Obtiene el tamaño de una Carpeta.
+	 * Prueba la obtencion del tamaño de una Carpeta.
 	 * 
 	 */
 	@Test
@@ -34,9 +34,9 @@ public class CarpetaTest {
 	/**
 	 * Test obtenerVisualizacion
 	 * 
-	 * Obtiene la visualizacion de una Carpeta.
+	 * Prueba la obtencion de la visualizacion de una Carpeta.
 	 * 
-	 * @throws OperacionInvalida
+	 * 
 	 * 
 	 */
 	@Test
@@ -53,9 +53,7 @@ public class CarpetaTest {
 	/**
 	 * Test obtenerNoLeidos
 	 * 
-	 * @throws OperacionInvalida
-	 * 
-	 *
+	 * Prueba la obtencion de un item no leido
 	 * 
 	 */
 	@Test
@@ -74,11 +72,9 @@ public class CarpetaTest {
 	}
 
 	/**
-	 * Test obtenerNoLeidos
+	 * Test estableceLeidoTrue
 	 * 
-	 * @throws OperacionInvalida
-	 * 
-	 *
+	 * Prueba el establecer un item como leido
 	 * 
 	 */
 	@Test
@@ -93,11 +89,9 @@ public class CarpetaTest {
 	}
 
 	/**
-	 * Test obtenerNoLeidos
+	 * Test estableceLeidoFalse
 	 * 
-	 * @throws OperacionInvalida
-	 * 
-	 *
+	 * Prueba el establcer un item como no leido
 	 * 
 	 */
 	@Test
@@ -115,9 +109,7 @@ public class CarpetaTest {
 	/**
 	 * Test obteneIcono
 	 * 
-	 * Obtiene el Icono de una Carpeta.
-	 * 
-	 * @throws OperacionInvalida
+	 * Prueba a obtener el Icono de una Carpeta.
 	 * 
 	 */
 	@Test
@@ -134,9 +126,7 @@ public class CarpetaTest {
 	/**
 	 * Test obtenerPreVisualizacion
 	 * 
-	 * Obtiene la PreVisualizacion de una Carpeta.
-	 * 
-	 * @throws OperacionInvalida
+	 * Prueba la obtencion de la PreVisualizacion de una Carpeta.
 	 * 
 	 */
 	@Test
@@ -152,7 +142,8 @@ public class CarpetaTest {
 	/**
 	 * Test explorar .
 	 * 
-	 * @throws OperacionInvalida
+	 * Prueba el explorar una Carpeta
+	 * 
 	 * 
 	 */
 	@Test
@@ -171,9 +162,7 @@ public class CarpetaTest {
 	/**
 	 * Test buscar
 	 * 
-	 * busca un mensaje y lo devuelve
-	 * 
-	 * @throws OperacionInvalida
+	 * Prueba la busqueda de un item y lo devuelve en forma de colecion
 	 * 
 	 */
 	@Test
@@ -197,9 +186,7 @@ public class CarpetaTest {
 	/**
 	 * Test buscar
 	 * 
-	 * no encuentra un mensaje
-	 * 
-	 * @throws OperacionInvalida
+	 * Prueba la busqueda de un item que no existe
 	 * 
 	 */
 	@Test
@@ -215,7 +202,7 @@ public class CarpetaTest {
 	/**
 	 * Test añadir
 	 * 
-	 * añadir un a una Carpeta
+	 * añadir un item a una Carpeta
 	 * 
 	 * @throws OperacionInvalida
 	 * 
@@ -233,7 +220,7 @@ public class CarpetaTest {
 	/**
 	 * Test eliminar
 	 * 
-	 * Eliminar un a una Carpeta
+	 * Eliminar un item a una Carpeta
 	 * 
 	 * @throws OperacionInvalida
 	 * 
@@ -251,7 +238,7 @@ public class CarpetaTest {
 	/**
 	 * Test eliminar
 	 * 
-	 * Eliminar un correo dentro de una carpeta que a su vez esta en otra Carpeta
+	 * Eliminar un item dentro de una carpeta que a su vez esta en otra Carpeta
 	 * 
 	 * @throws OperacionInvalida
 	 * 

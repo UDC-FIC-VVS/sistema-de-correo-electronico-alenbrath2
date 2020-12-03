@@ -16,7 +16,7 @@ public class AdjuntoTest {
 	/**
 	 * Test obtenerTamaño
 	 * 
-	 * Obtiene el tamaño de un Adjunto.
+	 * Prueba la obtencion del tamaño de un Adjunto.
 	 * 
 	 */
 	@Test
@@ -32,7 +32,7 @@ public class AdjuntoTest {
 	/**
 	 * Test obtenerVisualizacion
 	 * 
-	 * Obtiene la visualizacion de un Adjunto.
+	 * Prueba la obtencion de la visualizacion de un Adjunto.
 	 * 
 	 */
 	@Test
@@ -50,7 +50,7 @@ public class AdjuntoTest {
 	/**
 	 * Test obtenerNoLeidos
 	 * 
-	 *
+	 * Prueba la obtencion de un item no leido
 	 * 
 	 */
 	@Test
@@ -66,9 +66,9 @@ public class AdjuntoTest {
 	}
 
 	/**
-	 * Test obtenerNoLeidos
+	 * Test estableceLeidoTrue
 	 * 
-	 *
+	 * Prueba el establecer un item como leido
 	 * 
 	 */
 	@Test
@@ -84,9 +84,9 @@ public class AdjuntoTest {
 	}
 
 	/**
-	 * Test obtenerNoLeidos
+	 * Test estableceLeidoFalse
 	 * 
-	 *
+	 * Prueba el establcer un item como no leido
 	 * 
 	 */
 	@Test
@@ -104,7 +104,7 @@ public class AdjuntoTest {
 	/**
 	 * Test obteneIcono
 	 * 
-	 * Obtiene el Icono de un Adjunto.
+	 * Prueba a obtener el Icono de un Adjunto.
 	 * 
 	 */
 	@Test
@@ -120,9 +120,9 @@ public class AdjuntoTest {
 	}
 
 	/**
-	 * Test obteneIcono
+	 * Test obteneIconoNuevo
 	 * 
-	 * Obtiene el Icono de un Adjunto.
+	 * Prueba a obtener el Icono de un Adjunto nuevo.
 	 * 
 	 */
 	@Test
@@ -139,7 +139,7 @@ public class AdjuntoTest {
 	/**
 	 * Test obtenerPreVisualizacion
 	 * 
-	 * Obtiene la PreVisualizacion de un Adjunto.
+	 * Prueba la obtencion de la PreVisualizacion de un Adjunto.
 	 * 
 	 */
 	@Test
@@ -155,7 +155,7 @@ public class AdjuntoTest {
 	/**
 	 * Test obtenerRuta
 	 * 
-	 * Obtiene la Ruta de un Adjunto.
+	 * Prueba el obtener la Ruta de un Adjunto.
 	 * 
 	 */
 	@Test
@@ -171,7 +171,7 @@ public class AdjuntoTest {
 	/**
 	 * Test obtenerRuta
 	 * 
-	 * Obtiene la Ruta con pade de un Adjunto.
+	 * Prueba a obtener la Ruta de un Adjunto con padre.
 	 * 
 	 */
 	@Test
@@ -188,6 +188,9 @@ public class AdjuntoTest {
 
 	/**
 	 * Test explorar .
+	 * 
+	 * Prueba el lanzamiento de la excepcion de OperacionInvalida. Salta cuando
+	 * explora un adjunto
 	 * 
 	 * @throws OperacionInvalida
 	 * 
@@ -207,7 +210,7 @@ public class AdjuntoTest {
 	/**
 	 * Test buscar
 	 * 
-	 * busca un mensaje y lo devuelve
+	 * Prueba la busqueda de un item y lo devuelve en forma de colecion
 	 * 
 	 */
 	@Test
@@ -226,7 +229,7 @@ public class AdjuntoTest {
 	/**
 	 * Test buscar
 	 * 
-	 * no encuentra un mensaje
+	 * Prueba la busqueda de un item que no existe
 	 * 
 	 */
 	@Test

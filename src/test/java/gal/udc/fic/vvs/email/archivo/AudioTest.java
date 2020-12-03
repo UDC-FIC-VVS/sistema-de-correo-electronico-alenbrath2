@@ -8,7 +8,7 @@ public class AudioTest {
 	/**
 	 * Test obtenerNombre
 	 * 
-	 * Obtiene el nombre de un Audio.
+	 * Prueba obetener el nombre de un Audio.
 	 * 
 	 */
 	@Test
@@ -20,7 +20,7 @@ public class AudioTest {
 	/**
 	 * Test obtenerNombre
 	 * 
-	 * Obtiene el MimeType de un Audio.
+	 * Prueba obetener el MimeType de un Audio.
 	 * 
 	 */
 	@Test
@@ -32,7 +32,7 @@ public class AudioTest {
 	/**
 	 * Test obtenerContenido
 	 * 
-	 * Obtiene el Contenido de un Audio.
+	 * Prueba obetener el Contenido de un Audio.
 	 * 
 	 */
 	@Test
@@ -44,7 +44,7 @@ public class AudioTest {
 	/**
 	 * Test obtenerTamaño
 	 * 
-	 * Obtiene el tamaño de un Audio.
+	 * Prueba obetener el tamaño de un Audio.
 	 * 
 	 */
 	@Test
@@ -57,7 +57,7 @@ public class AudioTest {
 	/**
 	 * Test obtenerPreVisualizacion
 	 * 
-	 * Obtiene el Contenido de un Audio.
+	 * Prueba obetener la previsualizacion de un Audio.
 	 * 
 	 */
 	@Test
